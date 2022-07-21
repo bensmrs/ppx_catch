@@ -1,0 +1,5 @@
+(library
+ (name ppx_catch)
+ (public_name ppx_catch)
+ (kind ppx_rewriter)
+ (libraries ppxlib))
