@@ -24,4 +24,4 @@ let test_suites: unit test list = [
 ]
 
 (** Run the test suites *)
-let () = run "ppx_macro" test_suites
+let () = run "ppx_catch" test_suites

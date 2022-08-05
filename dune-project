@@ -6,6 +6,7 @@
 (authors "Benjamin Somers <benjamin.somers@imt-atlantique.fr>")
 (maintainers "Benjamin Somers <benjamin.somers@imt-atlantique.fr>")
 (homepage "https://github.com/bensmrs/ppx_catch")
+(source (github "bensmrs/ppx_catch"))
 (bug_reports "https://github.com/bensmrs/ppx_catch/issues")
 
 (package
@@ -14,5 +15,4 @@
  (description "This package catches all exceptions in a block and returns an option or a result of the resulting value")
  (depends
   (alcotest (>= 1.6.0))
-  (dune (>= 2.7))
   (ppxlib (>= 0.27.0))))
