@@ -14,5 +14,5 @@
  (synopsis "A PPX rewriter to catch exceptions and wrap into options or results")
  (description "This package catches all exceptions in a block and returns an option or a result of the resulting value")
  (depends
-  (alcotest (>= 1.6.0))
+  (alcotest (and :with-test (>= 1.6.0)))
   (ppxlib (>= 0.27.0))))
